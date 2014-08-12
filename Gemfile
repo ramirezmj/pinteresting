@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.0.0'
+ruby '2.1.2'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.4'
@@ -19,6 +19,8 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 # Use Bootstrap
 gem 'bootstrap-sass'
+# Use Devise
+gem 'devise', '~> 3.2.4'
 
 group :development, :test do
 	# Use sqlite3 as the database for Active Record
