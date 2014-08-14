@@ -8,13 +8,8 @@ $navbar-default-brand-color:    #c0392b;
 $brand-primary:                 #c0392b;
 $jumbotron-bg:                  white;
 
+@import 'bootstrap-sprockets';
 @import 'bootstrap';
-/* Override Bootstrap 3 font locations */
-@font-face {
-  font-family: 'Glyphicons Halflings';
-  src: url("../assets/bootstrap/glyphicons-halflings-regular.eot");
-  src: url("../assets/bootstrap/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../assets/bootstrap/glyphicons-halflings-regular.woff") format("woff"), url("../assets/bootstrap/glyphicons-halflings-regular.ttf") format("truetype"), url("../assets/bootstrap/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg");
-}
 
 .center {
 	text-align:center;
