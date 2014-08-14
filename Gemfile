@@ -19,7 +19,7 @@ gem 'jquery-turbolinks', '~> 2.0.2'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.0'
 # Use Bootstrap for styling
-gem 'bootstrap-sass'
+gem 'bootstrap-sass', '~> 3.2.0.1'
 # Use Devise to manage Users
 gem 'devise', '~> 3.2.4'
 # Use Paperclip to upload images
