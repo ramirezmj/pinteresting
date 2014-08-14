@@ -17,3 +17,6 @@
 
 # Ignore DS Store files
 .DS_Store
+
+# Ignore Images
+/public/system/*

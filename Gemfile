@@ -15,16 +15,20 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
+gem 'jquery-turbolinks', '~> 2.0.2'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.0'
-# Use Bootstrap
+# Use Bootstrap for styling
 gem 'bootstrap-sass'
-# Use Devise
+# Use Devise to manage Users
 gem 'devise', '~> 3.2.4'
-# Use Paperclip
+# Use Paperclip to upload images
 gem 'paperclip', '~> 4.2.0'
-# Use Amazon Web Services
+# Use Amazon Web Services to store the images
 gem 'aws-sdk', '~> 1.51.0'
+# Use jQuery Masonry for styling
+gem 'masonry-rails', '~> 0.2.1'
+
 
 group :development, :test do
 	# Use sqlite3 as the database for Active Record
