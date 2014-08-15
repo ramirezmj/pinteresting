@@ -1,4 +1,8 @@
-<%= link_to 'Back', pins_path %>
+<ol class="breadcrumb">
+  <li><%= link_to 'Home', pins_path %></li>
+  <li><%= link_to @pin.user, pins_path %></li>
+  <li class="active"><%= @pin.description %></li>
+</ol>
 
 <div class="row">
   <div class="col-md-offset-2 col-md-8">
@@ -16,7 +20,9 @@
             Edit
           <% end %>
         <% end %>
-
+      </div>
+      <div class="panel-footer">
+        <i><%= @pin.created_at %></i>
       </div>
     </div>
   </div>
