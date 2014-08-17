@@ -1,6 +1,6 @@
 <ol class="breadcrumb">
   <li><%= link_to 'Home', pins_path %></li>
-  <li><%= link_to @pin.user, pins_path %></li>
+  <li><%= link_to @pin.user.name, pins_path %></li>
   <li class="active"><%= @pin.description %></li>
 </ol>
 
